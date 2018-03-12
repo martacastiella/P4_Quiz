@@ -76,9 +76,9 @@ if (typeof id === "undefined"){
 				let r = resp.toLowerCase().trim();
 
 				if (r===q){
-					biglog('CORRECTA','green');
+					biglog('CORRECTO','green');
 				}else{
-					biglog('INCORRECTA','red');
+					biglog('INCORRECTO','red');
 				}
 				rl.prompt();
 			});	
@@ -119,11 +119,11 @@ exports.playCmd=rl=>{
 
 				if (r===q){
 					score=score+1;
-					log(`CORRECTA - Lleva ${score} aciertos.`);
+					log(`CORRECTO - Lleva ${score} aciertos.`);
 					playOne();
 				}
 				else{
-					log('INCORRECTA');
+					log('INCORRECTO');
 					log('Fin del examen. Aciertos:');
 					//biglog(`${colorize(score,'magenta')}`);
 					log(`${colorize(score,'magenta')}`);
