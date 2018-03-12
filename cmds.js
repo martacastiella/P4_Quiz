@@ -76,9 +76,9 @@ if (typeof id === "undefined"){
 				let r = resp.toLowerCase().trim();
 
 				if (r===q){
-					biglog('CORRECTO','green');
+					biglog('CORRECT','green');
 				}else{
-					biglog('INCORRECTO','red');
+					biglog('INCORRECT','red');
 				}
 				rl.prompt();
 			});	
