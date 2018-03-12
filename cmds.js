@@ -76,8 +76,10 @@ if (typeof id === "undefined"){
 				let r = resp.toLowerCase().trim();
 
 				if (r===q){
+					log('Su respuesta es correcta:');
 					biglog('CORRECT','green');
 				}else{
+					log('Su respuesta es incorrecta:');
 					biglog('INCORRECT','red');
 				}
 				rl.prompt();
