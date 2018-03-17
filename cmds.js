@@ -245,6 +245,12 @@ exports.editCmd = (rl, id) => {
   	});
 };
 
+exports.creditsCmd=rl=>{
+	log('Autores de las practicas:');
+	log('Marta','green');
+	rl.prompt();
+};
+
 
 
 
